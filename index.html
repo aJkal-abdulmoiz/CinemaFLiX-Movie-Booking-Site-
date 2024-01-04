@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinemaFLiX</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+  <div class="alert-box" id="myAlert" style="display: none;"></div>
+
+ <div class="nav-wrapper">
+  <div class="grad-bar"></div>
+  <nav class="navbar">
+    <div class="logo">
+        <h3 class="red">CinemaFLiX</h3>
+        <h3> MOVIE</h3>
+        <h3 class="red">-Theatres</h3>
+    </div>
+
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul class="nav no-search">
+      <li class="nav-item"><a href="#">Home</a></li>
+      <li class="nav-item"><a href="booking.html">Bookings</a></li>
+      <li class="nav-item"><a href="#movies">Movies</a></li>
+      <li class="nav-item"><a href="about.html">About Us</a></li>
+      <li class="nav-item" id="loginBtn"><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+  </div>
+
+  <section class="headline">
+    <h1>Get Your Tickets Booked Now</h1>
+    <p>Get Amazing offers on Group Bookings!</p>
+
+    <div class="home-btn">
+        <a href="#movies"><button>Check Movies</button></a>
+    </div>
+  </section>
+
+
+  <section id="movies" class="movies">
+
+    <div class="selection">
+      
+      <div class="trending-movies">
+        <h2>Recommended Movies</h2>
+      </div>
+      <div class="genre-filter">
+        <label for="genre-select">Filter by Genre:</label>
+        <select id="genre-select">
+          <option value="all">All Genres</option>
+          <option value="action">Action</option>
+          <option value="mystery">Mystery</option>
+          <option value="scifi">Sci-Fi</option>
+          <option value="fiction">Fiction</option>
+          <option value="drama">Drama</option>
+          <option value="thriller">Thriller</option>
+          
+          
+          <!-- Add more genre options as needed -->
+        </select>
+      </div>
+      <div class="movies-container">
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/inception.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>Inception 2</h4>
+              <p>Genre: SciFi</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/kingkong.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>King Kong</h4>
+              <p>Genre: Action Thriller</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/jhonewick4.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>John Wick 4</h4>
+              <p>Genre: Action Thriller</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/jurassicpark.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>Jusrassic Park </h4>
+              <p>Genre: Science Fiction</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/archive.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>Archive</h4>
+              <p>Genre: SciFi</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/mission.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>Mission Impossible</h4>
+              <p>Genre: Mystery Action Thriller</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/spd3.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>Spider Man 3</h4>
+              <p>Genre: Action</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/ex.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>Extraction 2</h4>
+              <p>Genre: Action</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/animal.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>Animal</h4>
+              <p>Genre: Action Drama Thriller </p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/avatar.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>Avatar</h4>
+              <p>Genre: Scifi Mystery</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/sen.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>Senstation</h4>
+              <p>Genre: Science Fiction Scifi</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/light.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>The Lighthouse</h4>
+              <p>Genre: Mystery</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/themartian.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>The Martian</h4>
+              <p>Genre: Scifi Mystery</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/replicas.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>Replicas</h4>
+              <p>Genre: Scifi Mystery</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/life.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>Life</h4>
+              <p>Genre: Action Scifi</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+        <div class="mov mov-1">
+          <div class="movie-card">
+            <div class="movie-img">
+              <img src="images/dunki.jpg" alt="">
+            </div>
+            <div class="details">
+              <h4>Pathan</h4>
+              <p>Genre: Action Drama</p>
+              <button class="book-btn" > Book</button>
+            </div>
+          </div>
+        </div>
+
+       
+       
+        
+        <!-- Add more movie elements here -->
+      </div>
+
+    </div>
+    
+  </section>
+
+  <section id="newsletter" class="section-p1">
+    <div class="newstext">
+        <h4>Signup for Newsletter</h4>
+        <p>Get E-mail Updates about your Bookings and <span>Discounted Offers.</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your E-mail Address">
+        <button class="normal">Sign Up</button>
+
+    </div>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong> Air University E9 Islamabad</p>
+        <p><strong>Phone</strong>+92 3348537793</p>
+        <p><strong>Hours</strong>10:00 -20:00</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-pinterest"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About Us</a>
+        <a href="#">Booking Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="login.html">Sign In</a>
+        <a href="booking.html">View Bookings</a>
+    </div>
+
+
+    <div class="copyright">
+        <p>AJkal-abdulmoiz All Rights Reserved</p>
+    </div>
+</footer>
+  
+      <script src="navbar.js"></script>
+      <script src="book.js"></script>
+      <script src="auth.js"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const genreSelect = document.getElementById('genre-select');
+          const movieCards = document.querySelectorAll('.movie-card');
+      
+          genreSelect.addEventListener('change', function() {
+            const selectedGenre = genreSelect.value.toLowerCase();
+      
+            movieCards.forEach(card => {
+              const movieGenre = card.querySelector('p').textContent.toLowerCase();
+              if (selectedGenre === 'all' || movieGenre.includes(selectedGenre)) {
+                card.style.display = 'flex';
+              } else {
+                card.style.display = 'none';
+              }
+            });
+          });
+        });
+      </script>
+</body>
+</html>
